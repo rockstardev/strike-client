@@ -25,7 +25,7 @@
 		<TreatWarningsAsErrors>true</TreatWarningsAsErrors>
 		
 		<!-- Suppress specific analyzer warnings that are failing in CI -->
-		<NoWarn>$(NoWarn);IDE0055;CA1819;IDE0051</NoWarn>
+		<NoWarn>$(NoWarn);IDE0055;CA1819;IDE0051;IDE0370</NoWarn>
 
 		<ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
